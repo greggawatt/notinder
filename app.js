@@ -52,19 +52,9 @@ bot.client.authorize(bot.access_token, bot.facebook_id, function(){
       _.chain(data.results)
       .each(function(v,k) {
         console.log(v.name);
-        bot.client.like(v._id, function(error, data) {
+        bot.client.pass(v._id, function(error, data) {
           count++;
           console.log('Count: ' + count);
-          if (data && data.matched) {
-            console.log('MATCHED!');
-            console.log(user);
-          }
-        //   if (data.matched) {
-        //     bot.client.sendMessage(
-        //       id,
-        //       "You're gorgeous. Let's adventure"
-        //     );
-        //   }
         });
       });
     });

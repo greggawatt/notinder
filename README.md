@@ -1,15 +1,15 @@
-# loltinder
+# notinder
 
 
-I created this because I got tired of swiping -- it's easier to sort out later who you like. My initial experiment exhausted me from 9 dates in a row. With some modification, this can easily message all girls. Use at your own risk.
+Based on the code of loltinder. It swipes left on everyone, because fuck going on dates, I want to stay home
+with my cat and play videos games while eating pie. 
 
 ## Motivation
 
-I really just love meeting up with girls and reading bibles together. It's so peaceful and sweet. Sex? Ew.
+Internet dating is annoying.
 
 ## Installation / Usage
 
-![Installation](http://g.recordit.co/clHymvOnCk.gif)
 * Install node
 * Clone this repo
 * npm install
@@ -26,6 +26,6 @@ https://www.facebook.com/dialog/oauth?client_id=464891386855067&redirect_uri=htt
 node app.js 305102211 "https://www.facebook.com/connect/login_success.html#access_token=CAAGm0PX4ZCpsc3npjYuZASBBIwGz8rS1aQcnjn2cThwpwVVJ9QNqlejhICzkharwvX56IIw5hEsebHIaxSXAs4RvoSBLhsCaKTgQAZBGny1EICA7orRtiuhHVjspFXZBs2GT6JpHUKtlAZD&expires_in=6902"
 ```
 
-* Be attractive
-* Get dates
-* Have fun
+* Forever Alone
+* I Don't Need Dates
+* Whatever
